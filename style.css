@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#topOfPageHeader {
+    text-align: center;
+}
+
+#citySearchContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%;
+}
+.searchForm {
+    padding: 5px;
+    width: 100%;
+}
+#cityDisplay{
+    border: 2px solid black;
+    width: 100%;
+    padding: 25px;
+}
+#displayHeaderContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 400px;
+}
+#weatherDisplayContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 70%;
+}
+.weatherDisplayItems {
+    border: 2px solid black;
+    padding: 25px;
+    margin: 25px;
+}
+#fiveDayForecastContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+#fiveday {
+    text-align: center;
+}

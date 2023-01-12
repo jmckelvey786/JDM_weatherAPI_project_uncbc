@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header id="topOfPageHeader">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main>
+        <div id="citySearchContainer">
+            <form action="" id="searchForm">
+                <label for="citySearch" class="searchForm1">City Search:</label> <br>
+                <input type="text" id="citySearch" class="searchForm1"> <br>
+                <br>
+                <button type="submit" id="citySearchButton" class="searchForm1">Search</button> <br>
+                <br>
+            </form>
+            <hr>
+            <div id="cityDisplay">
+                <header id="displayHeaderContainer">
+                    <h2>City Display: <span id="cityToDisplay"></span></h2>
+                </header>
+                <div id="cityDisplayArea">
+
+                </div>
+            </div>
+        </div>
+        <div id="weatherDisplayContainer">
+            <div id="currentWeatherContainer" class="weatherDisplayItems">
+                <h2>Today's Weather: <span id="todayDate"></span>  <span id="icontoday"><img id="imageID" src="" alt=""></span></h2>
+                <p>Temp: <span id="temp1"></span></p>
+                <p>Humidity: <span id="humid1"></span></p>
+                <p>Wind Speed: <span id="windSpeed1"></span></p>
+            </div>
+            <h2 id="fiveday">5 Day Forecast: </h2>
+            <div id="fiveDayForecastContainer" class="weatherDisplayItems">
+                <div id="WeatherContainer0" class="weatherDisplayItems">
+                    <h2><span id="Date0"></span>  <span id="icon0"><img id="imageID0" src="" alt=""></span></h2>
+                    <p>Temp: <span id="temp10"></span></p>
+                    <p>Humidity: <span id="humid10"></span></p>
+                    <p>Wind Speed: <span id="windSpeed10"></span></p>
+                </div>
+                <div id="WeatherContainer1" class="weatherDisplayItems">
+                    <h2><span id="Date1"></span>  <span id="icon1"><img id="imageID1" src="" alt=""></span></h2>
+                    <p>Temp: <span id="temp11"></span></p>
+                    <p>Humidity: <span id="humid11"></span></p>
+                    <p>Wind Speed: <span id="windSpeed11"></span></p>
+                </div>
+                <div id="WeatherContainer2" class="weatherDisplayItems">
+                    <h2><span id="Date2"></span>  <span id="icon2"><img id="imageID2" src="" alt=""></span></h2>
+                    <p>Temp: <span id="temp12"></span></p>
+                    <p>Humidity: <span id="humid12"></span></p>
+                    <p>Wind Speed: <span id="windSpeed12"></span></p>
+                </div>
+                <div id="WeatherContainer3" class="weatherDisplayItems">
+                    <h2><span id="Date3"></span>  <span id="icon3"><img id="imageID3" src="" alt=""></span></h2>
+                    <p>Temp: <span id="temp13"></span></p>
+                    <p>Humidity: <span id="humid13"></span></p>
+                    <p>Wind Speed: <span id="windSpeed13"></span></p>
+                </div>
+                <div id="WeatherContainer4" class="weatherDisplayItems">
+                    <h2><span id="Date4"></span>  <span id="icon4"><img id="imageID4" src="" alt=""></span></h2>
+                    <p>Temp: <span id="temp14"></span></p>
+                    <p>Humidity: <span id="humid14"></span></p>
+                    <p>Wind Speed: <span id="windSpeed14"></span></p>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
