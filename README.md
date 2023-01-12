@@ -16,4 +16,6 @@ Follow the URL
 ## Usage
 
 
+    ```md
     ![alt text](assets/images/screenshot.png)
+    ```
